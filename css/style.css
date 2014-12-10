@@ -1,0 +1,144 @@
+body {
+    background-color: #3ea2e1;
+}
+#accueil,#bilan, #jeux{
+    width: 100%;
+    background-color: white;
+}
+#container{
+    width:50%;
+}
+
+
+/*  --------  Mise en forme des elements du footer  --------  */
+#footer{
+    width: 100%;
+    background-color: #0b71b2;
+}
+#footer div{
+    display: inline-block;
+    text-align: center;
+    width: 32.8%;
+    margin-top: 40px;
+}
+#projet{
+    text-align: right;
+}
+
+#auteur{
+text-align:left;
+}
+
+#date{
+    text-align:center;
+}
+
+/*  --------  Mise en forme des elements de l'accueil  --------  */
+
+#titre{
+    font-family: "Arial", Georgia, sans-serif;
+    font-size: 16px;
+    color:red;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*  --------  Mise en forme des elements de jeu  --------  */
+
+#Consigne{
+    margin-top:10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+#quitter{
+    top:600px;
+    background-color: white;
+}
+
+#div_animation{
+    width: 100%;
+    margin:auto;
+    display: inline-block;
+    text-align: center;
+    height:550px;
+}
+#canvas{
+
+    position: absolute;
+    z-index: 1;
+}
+#habillage_top{
+
+    position: absolute;
+    z-index: 2;
+}
+#habillage_bottom{
+    top:550px;
+    position: absolute;
+    z-index: 3;
+}
+
+
+
+/*  --------  Mise en forme des elements de Bilan  --------  */
+
+#bl_clear{
+    float: right;
+}
+
+#bl_table{
+    float:right;
+  width: 100%;  
+}
+#tab_recap{
+    width:66%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tab_recap caption{
+    font-family: "Arial", Georgia, sans-serif;
+    font-size: 16px;
+    color:red;
+    text-align: center;
+    padding: 15px;
+}
+
+#tab_recap td,th{
+    text-align: center;
+    padding: 5px;
+    
+}
+
+
+/*  --------  classe  --------  */
+.txte{
+    font-family: "Arial", Georgia, sans-serif;
+    font-size: 12px;
+    color:black;
+}
+.bt{
+    float: right;
+    margin :10px;
+}
+.img_centre{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+
+.pts{
+    background-color: #cecccc;
+}
+.tot{
+    background-color: #3ea2e1;
+    color:white;
+}
